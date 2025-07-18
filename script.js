@@ -34,7 +34,7 @@ let getHumanChoice = () => {
 
   while (humanChoose === -1) {
     // Keep prompting.
-    alert("Your choice options are 1, 2 or 3 respectivly!");
+    alert("Your choice options are 1, 2 or 3 respectively!");
     humanChoose = askHuman();
   }
 
