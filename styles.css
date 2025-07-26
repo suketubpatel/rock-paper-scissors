@@ -1,0 +1,99 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  height: 150px;
+  width: 150px;
+  font-size: x-large;
+  border-radius: 5px;
+  border: 5px soid black;
+}
+
+.button,
+.game-btn {
+  box-shadow: 0 9px #999;
+}
+
+.button:active,
+.game-btn:active,
+.game-btn-color:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:hover {
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+
+.radios-text {
+  margin-right: 20px;
+}
+
+.game-btn {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 5px soid black;
+  background-color: #038a03;
+  color: white;
+}
+
+.game-btn:hover {
+  background-color: #04b104;
+  cursor: pointer;
+}
+
+.game-btn-color {
+  background-color: #cc2121;
+}
+
+.game-btn-color:hover {
+  cursor: pointer;
+  background-color: #f33838;
+}
