@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body class="body">
     <div class="main-container">
       <h1>Rock - Paper - Scissor</h1>
-      <p>Let's play this game... There will be 5 round!</p>
+      <p class="info">Let's play this game... There will be 5 round!</p>
       <div class="container">
         <div class="btn-container">
-          <button class="button">Rock</button>
-          <button class="button">Paper</button>
-          <button class="button">Seasor</button>
+          <button id="rock" class="button" value="rock" disabled>Rock</button>
+          <button id="paper" class="button" value="paper" disabled>
+            Paper
+          </button>
+          <button id="seasor" class="button" value="seasor" disabled>
+            Seasor
+          </button>
         </div>
 
         <div class="optionsContainer">
@@ -25,7 +29,7 @@
               type="radio"
               name="player-option"
               id="single-player"
-              value="single"
+              value="singlePlayer"
               checked
             />
             <label for="single-player" class="radios-text">Single player</label>
@@ -34,7 +38,7 @@
               type="radio"
               name="player-option"
               id="multi-player"
-              value="multi"
+              value="multiPlayer"
             />
             <label for="multi-player" class="radios-text"
               >Multiple player</label
