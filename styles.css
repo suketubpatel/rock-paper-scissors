@@ -31,7 +31,7 @@
 
 .optionsContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
 }
@@ -58,22 +58,6 @@ p {
   box-shadow: 0 9px #999;
 }
 
-/* .button:active,
-.game-btn:active,
-.game-btn-color:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.button:hover {
-  background-color: rgb(221, 221, 221);
-  cursor: pointer;
-} */
-
-.radios-text {
-  margin-right: 20px;
-}
-
 .game-btn {
   font-size: 1.2rem;
   padding: 5px 10px;
@@ -88,11 +72,6 @@ p {
   background-color: #04b104;
   cursor: pointer;
 }
-
-/* .game-btn-green {
-  background-color: #038a03;
-  transition: background-color 0.5s ease;
-} */
 
 .button:active,
 .game-btn:active,
@@ -114,4 +93,14 @@ p {
 .game-btn-red:hover {
   cursor: pointer;
   background-color: #f33838;
+}
+
+.game-btn-blue {
+  background-color: #2165cc;
+  transition: background-color 0.5s ease;
+}
+
+.game-btn-blue:hover {
+  cursor: pointer;
+  background-color: #357de9;
 }

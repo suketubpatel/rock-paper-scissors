@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# Rock-Paper-Scissors
 
 Project: Rock Paper Scissors Foundations Course - first JS project.
 

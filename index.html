@@ -9,46 +9,26 @@
   </head>
   <body class="body">
     <div class="main-container">
-      <h1>Rock - Paper - Scissor</h1>
+      <h1>Rock - Paper - Scissors</h1>
       <p class="info">Let's play this game... There will be 5 round!</p>
       <div class="container">
         <div class="btn-container">
-          <button id="rock" class="button" value="rock" disabled>Rock</button>
-          <button id="paper" class="button" value="paper" disabled>
+          <button id="Rock" class="button" value="Rock" disabled>Rock</button>
+          <button id="Paper" class="button" value="Paper" disabled>
             Paper
           </button>
-          <button id="seasor" class="button" value="seasor" disabled>
-            Seasor
+          <button id="Scissors" class="button" value="Scissors" disabled>
+            Scissors
           </button>
         </div>
 
         <div class="optionsContainer">
-          <div class="playerOptions">
-            <input
-              class="radios"
-              type="radio"
-              name="player-option"
-              id="single-player"
-              value="singlePlayer"
-              checked
-            />
-            <label for="single-player" class="radios-text">Single player</label>
-            <input
-              class="radios"
-              type="radio"
-              name="player-option"
-              id="multi-player"
-              value="multiPlayer"
-            />
-            <label for="multi-player" class="radios-text"
-              >Multiple player</label
-            >
-          </div>
-          <div lang="game-button">
+          <div class="game-button">
             <button class="game-btn">Start Game</button>
           </div>
         </div>
       </div>
+      <div class="result"></div>
     </div>
   </body>
 </html>
